@@ -5,3 +5,6 @@
   <li>Users can delete a number if they inputted the wrong number.</li>
   <li>Users can use the keyboard also to perform calculations.</li>
 </ul>
+
+<h1>Live Version</h1>
+<p>https://rsolanki87.github.io/calculator/</p>
