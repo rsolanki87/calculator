@@ -1,4 +1,4 @@
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .previous-operation {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
     opacity: 0.75;
 }
@@ -58,7 +58,7 @@ body {
 
 button {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     outline: none;
     border: none;
@@ -116,4 +116,29 @@ button {
     display: block;
     color:#ffffff;
     padding-left: 30px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.link {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+
+.link:hover {
+    transform: scale(1.1);
 }
